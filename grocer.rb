@@ -30,6 +30,9 @@ def consolidate_cart(cart)
 
   cart.each {|hash|
     binding.pry
+    hash.each {|keyz, valz|
+
+    }
   }
 end
 consolidate_cart(test)
