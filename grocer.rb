@@ -24,7 +24,7 @@ test = 	[
 def consolidate_cart(cart)
   # code here
 end
-
+consolidate_cart(test)
 def apply_coupons(cart, coupons)
   # code here
 end
