@@ -30,7 +30,7 @@ def consolidate_cart(cart)
 
   cart.each {|hash|
     hash.each {|keyz, valz|
-      binding.pry
+      #binding.pry
       if newCart.has_key?(keyz) == false
         newCart[keyz] = valz
         newCart[keyz][:count] = 1
