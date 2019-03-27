@@ -1,3 +1,5 @@
+require "pry"
+
 test = 	[
 		{"AVOCADO" => {:price => 3.00, :clearance => true}},
     {"AVOCADO" => {:price => 3.00, :clearance => true}},
