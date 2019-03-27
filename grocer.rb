@@ -40,6 +40,7 @@ def consolidate_cart(cart)
 
     }
   }
+  newCart
 end
 consolidate_cart(test)
 def apply_coupons(cart, coupons)
