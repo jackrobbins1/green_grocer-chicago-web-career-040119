@@ -28,7 +28,7 @@ coups = 	[
 def consolidate_cart(cart)
   newCart = {}
 
-  cart.each {|keyz, valz|
+  cart.each {|hash|
     pry
   }
 end
