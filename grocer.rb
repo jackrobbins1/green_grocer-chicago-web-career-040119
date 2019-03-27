@@ -27,6 +27,10 @@ coups = 	[
 
 def consolidate_cart(cart)
   newCart = {}
+
+  cart.each {|keyz, valz|
+    pry
+  }
 end
 consolidate_cart(test)
 def apply_coupons(cart, coupons)
