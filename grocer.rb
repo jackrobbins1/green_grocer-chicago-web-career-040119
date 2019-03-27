@@ -19,10 +19,14 @@ test = 	[
 		{"BEETS" => {:price => 2.50, :clearance => false}}
 	]
 
-
+coups = 	[
+		{:item => "AVOCADO", :num => 2, :cost => 5.00},
+		{:item => "BEER", :num => 2, :cost => 20.00},
+		{:item => "CHEESE", :num => 3, :cost => 15.00}
+	]
 
 def consolidate_cart(cart)
-  # code here
+  newCart = 
 end
 consolidate_cart(test)
 def apply_coupons(cart, coupons)
