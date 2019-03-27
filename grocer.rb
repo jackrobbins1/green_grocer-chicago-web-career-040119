@@ -29,9 +29,8 @@ def consolidate_cart(cart)
   newCart = {}
 
   cart.each {|hash|
-    binding.pry
     hash.each {|keyz, valz|
-
+      binding.pry
     }
   }
 end
