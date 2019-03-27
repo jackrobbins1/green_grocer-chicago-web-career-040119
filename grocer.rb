@@ -33,9 +33,9 @@ def consolidate_cart(cart)
       binding.pry
       if newCart.has_key?(keyz) == false
         newCart[keyz] = valz
-        newCart[:count] = 1
+        newCart[keyz][:count] = 1
       else
-        newCart[:count] += 1
+        newCart[keyz][:count] += 1
       end
 
     }
